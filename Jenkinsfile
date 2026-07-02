@@ -1,7 +1,7 @@
 pipeline {
 agent any
 
-```
+
 stages {
     stage('Deploy to Nginx') {
         steps {
@@ -11,7 +11,6 @@ stages {
         }
     }
 }
-```
 
 }
 
